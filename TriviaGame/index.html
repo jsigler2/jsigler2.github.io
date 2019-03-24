@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>American History Trivia Game!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Assistant:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Seaweed+Script|UnifrakturMaguntia" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+</head>
+<body></body>
+    <div id="welcome">
+        <h1>American History Trivia!</h1>
+        <br />
+        <p>You will be given 1 minute to answer 8 questions.</p>
+        <br />
+        <p>Click to begin:</p>
+        <br />
+        <button type="button" class="button" id="start-button">'MERICA!</button>
+    </div><!--end welcome-->
+
+    <div class="questionnaire">
+        <h2>"We the People of the United States..."</h2>
+        <p>Time Left:</p>
+        <br />
+        <p id="time-remain">60</p>
+
+        <div class="questions">
+            <br />
+            <button type="button" class="button" id="submit">Submit</button>
+        </div>
+    </div><!--end questionnaire-->
+    
+    <div id="timer-page">
+        <h2>Time is up!</h2>
+        <br />
+        <p id="correct">Correct Answers: </p>
+        <br />
+        <p id="incorrect">Incorrect Answers: </p>
+    </div>
+
+    <div id="results">
+        <h2>U.S.A! U.S.A! U.S.A!</h2>
+        <br />
+        <p id="correctResult">Correct Answers: </p>
+        <br />
+        <p id="incorrectResult">Incorrect Answers: </p>
+        <br />
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js "></script>
+</body>
+</html>

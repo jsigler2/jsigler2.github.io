@@ -1,0 +1,56 @@
+body {
+    background-image: url('../images/us-background.jpg');
+    background-repeat: repeat;
+    font-family: 'Assistant', sans-serif;
+    line-height: 2em;
+}
+
+#welcome, #timer-page, #results, .questionnaire {
+    background-image: url('../images/tileable_wood_texture.png');
+    background-repeat: repeat;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 70px 40px 70px 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: 'Seaweed Script', cursive;
+    font-size: 6em;
+    color: #000;
+    padding: 20px 0 40px 0;
+}
+
+h2 {
+    font-family: 'Seaweed Script', cursive;
+    font-size: 4em;
+    color: #000;
+    padding: 20px 0 40px 0;
+}
+
+p {
+    font-weight: 400;
+    font-size: 2em;
+}
+
+label {
+    color: #000;
+    padding: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-family: 'Seaweed Script', cursive;
+    font-size: 2em;
+    border-radius: 10px;
+    text-transform: lowercase;
+}
+
+
+/*
+font-family: 'UnifrakturMaguntia', cursive;
+font-family: 'Seaweed Script', cursive;
+*/

@@ -1,0 +1,31 @@
+.header {
+	color: slategray;
+	text-align: center;
+	background-color: lavender;
+	padding: 40px 0 40px 0;
+	margin-bottom: 30px;
+}
+
+.topic-button {
+  	display: block;
+  	padding: 0 15px;
+  	margin: 5px 5px;
+}
+
+.form-display {
+	margin: 10px auto;
+	padding: auto 50%;
+	text-align: center;
+}
+
+.add-button {
+	margin: auto 10px;
+}
+
+.gif-div {
+	display: inline;
+	margin-bottom: 20px;
+}
+
+
+

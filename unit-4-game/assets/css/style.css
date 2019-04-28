@@ -1,0 +1,101 @@
+body {
+    font-family: 'Source Serif Pro', serif;
+    background-image: url("../images/whitediamond.png");
+    background-repeat: repeat;
+    margin: 0 auto;
+}
+
+#container {
+    text-align: center;
+    margin: 40px;
+}
+
+header {
+    border: 3px solid #ccc;
+    padding: 20px 0px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+    color: #1B1B1B;
+}
+
+.rules {
+    border: 3px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 700;
+    color: #1B1B1B;
+}
+
+.rules ol {
+    text-align: left;
+    line-height: 2em;
+    padding: 40px;
+    list-style-type: circle;
+}
+
+li {
+    font-size: 1em;
+    font-weight: 400;
+    color: #1B1B1B; 
+}
+
+.game-section {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.player-info {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+#random-number {
+    border: 3px solid #ccc;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: inline-block;
+    margin: 20px;
+}
+
+#user-total {
+    border: 3px solid #ccc;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: inline-block;
+    margin: 20px;
+}
+
+#win-lose {
+    border: 3px solid #ccc;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: inline-block;
+    margin: 20px;
+}
+
+.buttons {
+    width: 220px;
+    height: 220px;
+    background-color:#1B1B1B;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons img {
+    padding-top: 25px;
+}
